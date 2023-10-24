@@ -1,0 +1,14 @@
+D:\Visual Studio Projects\SystemModeling\Practice1\bin\Debug\Practice1.exe.config
+D:\Visual Studio Projects\SystemModeling\Practice1\bin\Debug\Practice1.exe
+D:\Visual Studio Projects\SystemModeling\Practice1\bin\Debug\Practice1.pdb
+D:\Visual Studio Projects\SystemModeling\Practice1\obj\Debug\Practice1.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\SystemModeling\Practice1\obj\Debug\Practice1.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\SystemModeling\Practice1\obj\Debug\Practice1.exe
+D:\Visual Studio Projects\SystemModeling\Practice1\obj\Debug\Practice1.pdb
+D:\Visual Projects\systmod\Practice1\obj\Debug\Practice1.csproj.AssemblyReference.cache
+D:\Visual Projects\systmod\Practice1\obj\Debug\Practice1.csproj.CoreCompileInputs.cache
+D:\Visual Projects\systmod\Practice1\obj\Debug\Practice1.exe
+D:\Visual Projects\systmod\Practice1\obj\Debug\Practice1.pdb
+D:\Visual Projects\systmod\Practice1\bin\Debug\Practice1.exe.config
+D:\Visual Projects\systmod\Practice1\bin\Debug\Practice1.exe
+D:\Visual Projects\systmod\Practice1\bin\Debug\Practice1.pdb

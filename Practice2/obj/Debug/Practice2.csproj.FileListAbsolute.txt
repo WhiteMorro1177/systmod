@@ -1,0 +1,9 @@
+D:\Visual Projects\systmod\Practice2\bin\Debug\Practice2.exe.config
+D:\Visual Projects\systmod\Practice2\bin\Debug\Practice2.exe
+D:\Visual Projects\systmod\Practice2\bin\Debug\Practice2.pdb
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.csproj.AssemblyReference.cache
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.exe
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.pdb
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.ChartPreview.resources
+D:\Visual Projects\systmod\Practice2\obj\Debug\Practice2.csproj.GenerateResource.cache
