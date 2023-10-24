@@ -5,7 +5,8 @@ using System.Windows.Forms.DataVisualization;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Drawing;
-
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Practice2
 {
@@ -77,7 +78,7 @@ namespace Practice2
 			{
 				var r = new Random();
 				for (int i = 0; i < length; i++)
-					random_array[i] = r.Next(A, B + 1);
+					random_array[i] = r.Next((A == 0) ? 1 : A, B + 1);
 			}
 			
 			generated_sequences.Add(random_array);
@@ -86,7 +87,6 @@ namespace Practice2
 			// calculate deflections
 			CalculateDeflections(random_array);
 			RandomSequencePeriod(random_array);
-
 		}
 
 
@@ -155,7 +155,8 @@ namespace Practice2
 			{
 				double y_c = sequence[i];
 				int fn = (int)Math.Floor(y_c / d_y);
-				fn = (fn == 10) ? fn - 1 : fn;
+				fn = (fn >= interval_count) ? 9 : fn;
+				fn = (fn <= 0) ? 0 : fn;
 				tmp_frequencies[fn] += 1;
 			}
 
@@ -190,7 +191,7 @@ namespace Practice2
 				double criteria_iteration = Math.Pow(1 / (interval_count - sequence[i]), 2) / sequence[i];
 				criteria += criteria_iteration;
 			}
-			pirson_criterias.Add(Math.Sqrt(criteria));
+			pirson_criterias.Add(criteria);
 		}
 
 		/// <summary>

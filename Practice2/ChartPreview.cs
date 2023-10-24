@@ -15,6 +15,7 @@ namespace Practice2
 		public ChartPreview(string name, double[] data)
 		{
 			Data = data;
+			StartPosition = FormStartPosition.CenterScreen;
 			InitializeComponent();
 
 			main_histogram.Series.Clear();
