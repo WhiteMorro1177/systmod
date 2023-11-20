@@ -22,7 +22,7 @@ namespace Practice3
 			);
 
 			generator.CreateCharts();
-			generator.CreateChart();
+			generator.RestoreValues();
 
             Console.WriteLine(generator.ToString());
 
